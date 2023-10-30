@@ -27,3 +27,10 @@
   height: 93vh;
   width: 25vw;
 }
+
+@media screen and (max-width: 768px) {
+  .img-matrice_style_left,
+  .matrice_style_right {
+    display: none;
+  }
+}
