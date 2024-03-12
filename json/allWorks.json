@@ -1,9 +1,9 @@
 [
   {
-    "name": "Première maquette",
-    "slug": "https://first-maquette.vercel.app",
-    "illustration": "maquetteHtml",
-    "categorie": "html"
+    "name": "trainCroyable",
+    "slug": "https://traincroyable.vercel.app",
+    "illustration": "TrainCroyable",
+    "categorie": "fullstack"
   },
   {
     "name": "Gestion de stock",
@@ -16,23 +16,5 @@
     "slug": "https://my-pokedex-livid.vercel.app",
     "illustration": "Project_pokemon",
     "categorie": "js"
-  },
-  {
-    "name": "Manga (En construction)",
-    "slug": "expo-manga",
-    "illustration": "Security",
-    "categorie": "react"
-  },
-  {
-    "name": "Cocktails",
-    "slug": "https://search-cocktails.vercel.app",
-    "illustration": "search_cocktails",
-    "categorie": "react"
-  },
-  {
-    "name": "Expo jeux vidéos (En construction)",
-    "slug": "expositions-jeux-videos",
-    "illustration": "Support",
-    "categorie": "react"
   }
 ]

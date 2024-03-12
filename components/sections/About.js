@@ -11,7 +11,7 @@ function About() {
     },
     {
       icon: "bi-cup-hot",
-      number: 216,
+      number: 1200,
       name: "Tasses de café",
     },
     {
@@ -28,17 +28,17 @@ function About() {
   const aboutSkills = [
     {
       name: "HTML5 / CSS3 / Bootstrap",
-      lvl: 80,
+      lvl: 95,
       bgColor: "#401a5c",
     },
     {
       name: "Javascript",
-      lvl: 75,
+      lvl: 80,
       bgColor: "#480a54",
     },
     {
       name: "React / Next.js",
-      lvl: 45,
+      lvl: 70,
       bgColor: "rgb(114 0 60)",
     },
   ];

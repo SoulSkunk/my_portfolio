@@ -37,7 +37,7 @@ function Experience() {
       title: "Livreur ,serveur",
       organization: "Restaurant de sushis",
       description:
-        "J'ai apprit à alterner les rôles pour que je sois adapté au situations qui se présentent",
+        "J'ai apprit à alterner les rôles pour que je sois adapté aux situations qui se présentent",
       type: "job", // job
     },
     {
