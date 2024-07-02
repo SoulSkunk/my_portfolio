@@ -1,6 +1,12 @@
 [
   {
-    "name": "trainCroyable",
+    "name": "MyQuiz",
+    "slug": "https://quiz-api-dun.vercel.app",
+    "illustration": "myQuiz",
+    "categorie": "fullstack"
+  },
+  {
+    "name": "TrainCroyable",
     "slug": "https://traincroyable.vercel.app",
     "illustration": "trainCroyable",
     "categorie": "fullstack"

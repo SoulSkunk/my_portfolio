@@ -4,12 +4,21 @@ import Titles from "../Titles";
 function Experience() {
   const experiences = [
     {
+      yearStart: 2024,
+      yearEnd: 2027,
+      title: "Ynov",
+      organization: "Mastère Expert développement web",
+      description:
+        "Je suis actuellement en troisième année et je me spécialise dans le développement web.",
+      type: "study", // job
+    },
+    {
       yearStart: 2022,
-      yearEnd: 2025,
+      yearEnd: 2024,
       title: "Mediaschool",
       organization: "Bachelor SupdewebDev",
       description:
-        "Actuellement étudiant pour devenir développeur Full-stack après mon Bachelor.",
+        "J'ai validé mes deux premières années d'étude en développement web",
       type: "study", // job
     },
     {

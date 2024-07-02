@@ -58,7 +58,7 @@ function Services() {
       </div>
       <p className="text-center mt-5">
         Vous cherchez votre prochain alternant Développeur Web ?{" "}
-        <a href="mailto:kylian.broccolichi@mediaschool.me">Contactez-moi</a> 👋
+        <a href="mailto:kylian500@gmail.com">Contactez-moi</a> 👋
       </p>
     </div>
   );

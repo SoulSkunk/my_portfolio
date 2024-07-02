@@ -12,7 +12,7 @@ function Contact() {
             <h3 className="fs-5">Parlons de ce que vous voulez !</h3>
             <p>
               Vous pouvez aussi m'envoyer un mail directement Envoyez moi un{" "}
-              <a href="mailto:kylian.broccolichi@mediaschool.me">e-mail</a> 👋
+              <a href="mailto:kylian500@gmail.com">e-mail</a> 👋
             </p>
           </div>
         </div>
