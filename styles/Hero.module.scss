@@ -1,33 +1,96 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
 
+.hero {
+  background: linear-gradient(135deg, #290056 0%, #7300ab 100%);
+  width: 100vw; /* occupe toute la largeur */
+  height: 100vh; /* occupe toute la hauteur */
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+
+  @media (max-width: 768px) {
+    height: 100vh; /* garde le full height sur mobile aussi */
+    padding: 2rem 1rem;
+  }
+}
+
+/* Avatar */
+.avatar {
+  width: 120px;
+  height: 120px;
+
+  @media (max-width: 576px) {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+/* Nom et texte */
 #name_title,
-#text_title {
+#text_title,
+.name,
+.text {
   font-family: "Roboto Mono", monospace;
-  color: rgb(0 255 0);
+  color: #7300ab;
 }
 
-.lottieSection {
+/* Nom */
+.name {
+  font-size: 2.2rem;
+  color: #7300ab;
+
+  @media (max-width: 576px) {
+    font-size: 1.6rem;
+  }
+}
+
+/* Texte de présentation */
+.text {
+  color: #f0f0f0;
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  @media (max-width: 576px) {
+    font-size: 0.95rem;
+  }
+}
+
+/* Boutons réseaux */
+.iconLink {
+  color: white;
+  transition: color 0.3s ease, transform 0.2s ease;
+
+  &:hover {
+    color: #00ffcc;
+    transform: translateY(-3px);
+  }
+}
+
+/* Scroll Down */
+.scrollDown {
   position: absolute;
-  text-decoration: none;
   bottom: 15px;
+  text-decoration: none;
+
+  small {
+    color: #ddd;
+    font-size: 0.9rem;
+  }
 }
 
-.matrice_style_left {
-  position: absolute;
-  top: 6%;
-  left: 70%;
-  height: 93vh;
-  width: 25vw;
-}
-
-.matrice_style_right {
-  position: absolute;
-  top: 6%;
-  left: 6%;
-  height: 93vh;
-  width: 25vw;
-}
-
+/* Responsive : cacher les gifs sur mobile */
 @media screen and (max-width: 768px) {
   .matrice_style_left,
   .matrice_style_right {

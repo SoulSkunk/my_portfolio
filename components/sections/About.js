@@ -6,12 +6,12 @@ function About() {
   const aboutAchievements = [
     {
       icon: "bi-hand-thumbs-up",
-      number: 37,
+      number: 54,
       name: "Projets accomplis",
     },
     {
       icon: "bi-cup-hot",
-      number: 1200,
+      number: 5200,
       name: "Tasses de café",
     },
     {
@@ -21,30 +21,30 @@ function About() {
     },
     {
       icon: "bi-window-sidebar",
-      number: 3,
+      number: 14,
       name: "Sites publiés",
     },
   ];
   const aboutSkills = [
     {
-      name: "HTML5 / CSS3 / Bootstrap",
-      lvl: 95,
-      bgColor: "#401a5c",
+      name: "React / Next.js / Tailwind",
+      lvl: 90,
+      bgColor: "#290056",
     },
     {
-      name: "Javascript",
+      name: "PHP / Node.js / Symfony",
+      lvl: 75,
+      bgColor: "#4e0a70ff",
+    },
+    {
+      name: "SQL / Sequilize / MongoDB",
       lvl: 80,
-      bgColor: "#480a54",
-    },
-    {
-      name: "React / Next.js",
-      lvl: 70,
-      bgColor: "rgb(114 0 60)",
+      bgColor: "rgba(111, 14, 160, 1)",
     },
   ];
 
   return (
-    <div id="about" className="container mt-section">
+    <div id="about" className={`${styles.aboutSection} container `}>
       <Titles value="A propos"></Titles>
       <div className="row">
         <div className="col-lg-2 d-none d-lg-block">

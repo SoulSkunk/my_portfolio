@@ -1,8 +1,8 @@
 [
   {
-    "name": "MyQuiz",
-    "slug": "https://quiz-api-dun.vercel.app",
-    "illustration": "myQuiz",
+    "name": "Event Connect",
+    "slug": "https://eventconnect-frontend.vercel.app",
+    "illustration": "eventConnect",
     "categorie": "fullstack"
   },
   {
@@ -10,12 +10,6 @@
     "slug": "https://traincroyable.vercel.app",
     "illustration": "trainCroyable",
     "categorie": "fullstack"
-  },
-  {
-    "name": "Gestion de stock",
-    "slug": "https://gestionnaire-de-stockage.vercel.app",
-    "illustration": "gestion_stock",
-    "categorie": "js"
   },
   {
     "name": "Pokedex",

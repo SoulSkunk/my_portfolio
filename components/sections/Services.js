@@ -12,7 +12,7 @@ function Services() {
       title: "Language informatique",
       description:
         "J'ai les bases pour apprendre de nouveaux languages rapidement.",
-      bgColor: "#401a5c",
+      bgColor: "#290056",
       color: "white",
     },
     {
@@ -20,7 +20,7 @@ function Services() {
       title: "UI/UX design",
       description:
         "Je sais mettre en place un wireframe et j'ai des notions de user experience.",
-      bgColor: "#480a54",
+      bgColor: "#4e0a70ff",
       color: "white",
     },
     {
@@ -28,7 +28,7 @@ function Services() {
       title: "Gestion projet",
       description:
         "J'ai appris à rédiger un cahier des charges et travailler en équipe.",
-      bgColor: "rgb(114 0 60)",
+      bgColor: "rgba(111, 14, 160, 1)",
       color: "white",
     },
   ];
@@ -58,7 +58,7 @@ function Services() {
       </div>
       <p className="text-center mt-5">
         Vous cherchez votre prochain alternant Développeur Web ?{" "}
-        <a href="mailto:kylian500@gmail.com">Contactez-moi</a> 👋
+        <a href="mailto:kylian.broccolichi@ynov.com">Contactez-moi</a> 👋
       </p>
     </div>
   );
