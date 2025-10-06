@@ -7,12 +7,8 @@ import Experience from "@/components/sections/Experiences";
 import Works from "@/components/sections/Works";
 import Contact from "@/components/sections/Contact";
 import Footer from "@/components/Footer";
-import dynamic from "next/dynamic";
 
 export default function Home() {
-  const LottiePlayer = dynamic(() => import("@/components/LottiePlayer"), {
-    ssr: false, // important : évite les erreurs côté serveur
-  });
   return (
     <>
       <Head>
